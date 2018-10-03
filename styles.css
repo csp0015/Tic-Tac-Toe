@@ -1,0 +1,39 @@
+#board {
+    font-family: 'Lato', sans-serif;
+    padding: 3em;
+    text-align: center;
+}
+
+.Row > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+.Row {
+    margin: 0 auto;
+    width: 302px;
+    clear: both;
+}
+
+.Top {
+    border-bottom: 1px black solid;
+}
+
+.Bottom {
+    border-top: 1px black solid;
+}
+
+.Left {
+    border-right: 1px black solid;
+}
+
+.Right {
+    border-left: 1px black solid;
+}
+
+.Row :hover {
+    cursor: pointer;
+    background-color: aqua;
+   
+}
