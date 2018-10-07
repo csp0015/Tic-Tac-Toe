@@ -8,6 +8,7 @@
     float: left;
     height: 100px;
     width: 100px;
+    font-size: 5em;
 }
 
 .Row {
@@ -34,6 +35,11 @@
 
 .Row :hover {
     cursor: pointer;
-    background-color: aqua;
-   
+    background-color: rgba(0, 255, 255, 0.15);
 }
+
+.Win {
+    font-size: 2em;
+}
+
+
